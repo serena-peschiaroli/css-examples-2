@@ -1,3 +1,23 @@
+/* reset per azzerare */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container in cui inserire tutto il main*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.big-square {
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+}
+
+
 .square {
     width: 150px;
     height: 150px;
@@ -37,4 +57,13 @@
 
 .m-auto {
     margin: 0 auto;
+}
+
+.border-radius {
+    border-top-left-radius: 30px;
+
+}
+
+.d-block {
+    display: block;
 }
